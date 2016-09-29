@@ -22,7 +22,7 @@ app.get('/third', function (req, res) {
 });
 
 app.get('/htfirst', function (req, res) {
-  res.sendFile(path.join(_dirname,'ui','first.html'));
+  res.sendFile(path.join(_dirname,  'first.html'));
 });
 
 app.get('/ui/style.css', function (req, res) {
