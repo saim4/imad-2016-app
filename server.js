@@ -5,12 +5,94 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
+
+var va1= {
+  title: 'ARTICLE ONE| SAIM YUSUF',
+  heading: 'ARTICLE ONE',
+  date: '4.12.1995',
+  content:`
+  
+   <p>
+                THE ARTICLE FIRST starts from here.This article act as launchpad for your JAVA course.
+                Make sure that you follow regularly.
+                
+                
+            </p>
+            
+            <p>
+                this is second paragraph
+            </p>
+            <p>
+                this is third paragraph
+            </p>`
+    
+};
+function createtemplate(obj){
+    
+var title= obj.title;
+var date=  obj.date;
+var heading= obj.heading;
+var content= obj.content;
+
+var htmltemplate=`
+    
+ <HTML>
+ <head>
+        <title>
+               ${title}
+            
+             </title>
+        
+      <link href="/ui/style.css" rel="stylesheet" /> 
+      
+    </head>
+    
+   
+    
+    <body>
+      <div class= 'container'>
+        <div>
+            <a href= "/">HOME</a>
+        </div>
+        
+         <div>
+            <a href= "/second">SECOND ARTICLE</a>
+        </div>
+        
+         <div>
+            <a href= "/third">THIRD ARTICLE</a>
+        </div>
+        <hr/>
+        
+        <h3>
+            ${heading}
+        </h3>
+        <div>
+            ${date}
+        </div>
+        <div>
+           ${content}
+        </div>
+     </div>
+    </body>
+                  
+</HTML> `   
+       
+    
+return htmltemplate;    
+}
+
+
+
+
+
+
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
 app.get('/first', function (req, res) {
-res.sendFile(path.join(__dirname, 'ui', 'first1.html'));
+res.send(createtemplate(val1));
 });
 
 app.get('/second', function (req, res) {
