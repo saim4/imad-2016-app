@@ -6,7 +6,7 @@ var app = express();
 app.use(morgan('combined'));
 
 
-var va1= {
+var val1= {
   title: 'ARTICLE ONE| SAIM YUSUF',
   heading: 'ARTICLE ONE',
   date: '4.12.1995',
