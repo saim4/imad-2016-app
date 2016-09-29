@@ -71,7 +71,7 @@ title: 'ARTICLE THREE| SAIM YUSUF',
                 this is third paragraph
             </p>`
     
-},    
+}    
     
 };
 
@@ -142,8 +142,10 @@ app.get('/', function (req, res) {
 
 
 app.get('/:articlename', function (req, res) {
+     //articlename== article-one
+     //articles[articlename]== {} content object for article one
      var articlename= req.params.articlename;
-res.send(createtemplate(articles(articlename)));
+res.send(createtemplate(articles[articlename]));
 });
 
 app.get('/second', function (req, res) {
