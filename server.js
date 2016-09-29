@@ -5,8 +5,8 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
-
-var val1= {
+var articles= {
+ 'article-one' : {
   title: 'ARTICLE ONE| SAIM YUSUF',
   heading: 'ARTICLE ONE',
   date: '4.12.1995',
@@ -26,7 +26,55 @@ var val1= {
                 this is third paragraph
             </p>`
     
+},
+
+'article-two': {
+    
+  title: 'ARTICLE TWO| SAIM YUSUF',
+  heading: 'ARTICLE TWO',
+  date: '10.12.15',
+  content:`
+  
+   <p>
+                THE ARTICLE SECONDS starts from here.This article act as launchpad for your JAVA course.
+                Make sure that you follow regularly.
+                
+                
+            </p>
+            
+            <p>
+                this is second paragraph
+            </p>
+            <p>
+                this is third paragraph
+            </p>`
+    
+},
+'article-three': {
+    
+title: 'ARTICLE THREE| SAIM YUSUF',
+  heading: 'ARTICLE THREE',
+  date: '4.12.1995',
+  content:`
+  
+   <p>
+                THE ARTICLE THREE starts from here.This article act as launchpad for your JAVA course.
+                Make sure that you follow regularly.
+                
+                
+            </p>
+            
+            <p>
+                this is second paragraph
+            </p>
+            <p>
+                this is third paragraph
+            </p>`
+    
+},    
+    
 };
+
 function createtemplate(obj){
     
 var title= obj.title;
@@ -90,9 +138,10 @@ return htmltemplate;
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
+var articlename= req.params.articlename;
 
-app.get('/first', function (req, res) {
-res.send(createtemplate(val1));
+app.get('/:articlename', function (req, res) {
+res.send(createtemplate(articles(articlename)));
 });
 
 app.get('/second', function (req, res) {
