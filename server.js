@@ -21,6 +21,10 @@ app.get('/third', function (req, res) {
   res.send("REQUEST TTHIRD  RECEIVED");
 });
 
+app.get('/htfirst', function (req, res) {
+  res.sendFile(path.join(_dirname,'ui','first.html'));
+});
+
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
