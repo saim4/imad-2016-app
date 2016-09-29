@@ -10,7 +10,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/first', function (req, res) {
-  res.send("                                                         REQUEST FIRST  RECEIVED");
+  res.send(" REQUEST FIRST  RECEIVED");
 });
 
 app.get('/second', function (req, res) {
