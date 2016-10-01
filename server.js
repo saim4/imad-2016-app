@@ -104,11 +104,11 @@ var htmltemplate=`
         </div>
         
          <div>
-            <a href= "/second">SECOND ARTICLE</a>
+            <a href= "/article-two">SECOND ARTICLE</a>
         </div>
         
          <div>
-            <a href= "/third">THIRD ARTICLE</a>
+            <a href= "/article-three">THIRD ARTICLE</a>
         </div>
         <hr/>
         
