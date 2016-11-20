@@ -14,7 +14,7 @@ var articles= {
   
    <p>
                 THE ARTICLE FIRST starts from here.This article act as launchpad for your JAVA course.
-                Make sure that you follow regularly.
+                
                 
                 
             </p>
