@@ -178,9 +178,7 @@ app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
 
-app.get('/ui/Rotatory solar panel-Copy.pptm',function(req,res){
-    res.sendFile(path.join(_dirname, 'ui', 'Rotatory solar panel-Copy.pptm'))
-});
+
 
 app.get('/ui/chk_captcha.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'chk_captcha.jpg'));
