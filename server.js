@@ -40,7 +40,7 @@ var articles= {
   
    <p>
         TYPES OF LAND----------------------------------------------------------------------------------------------------
-        1) AGRICULTURAL LAND-
+                  1) AGRICULTURAL LAND-
         Agriculture land are those which are cultivable.Such lands are of immense importance and specially protected by 
         strict government laws.
         Construction on such land is generally prohbitted and requires government permission.
