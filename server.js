@@ -33,45 +33,41 @@ var articles= {
 
 'article-two': {
     
-  title: 'ARTICLE TWO| SAIM YUSUF',
-  heading: 'ARTICLE TWO',
-  date: '10.12.15',
+  title: 'LAND TYPES|SAIM YUSUF',
+  heading: 'LAND CLASSIFICATION ',
+  date: '24/11/2016',
   content:`
   
    <p>
-                THE ARTICLE SECONDS starts from here.This article act as launchpad for your JAVA course.
-                Make sure that you follow regularly.
-                
-                
-            </p>
-            
-            <p>
-                this is second paragraph
-            </p>
-            <p>
-                this is third paragraph
-            </p>`
+        TYPES OF LAND----------------------------------------------------------------------------------------------------
+        1) AGRICULTURAL LAND-
+        Agriculture land are those which are cultivable.Such lands are of immense importance and specially protected by 
+        strict government laws.
+        Construction on such land is generally prohbitted and requires government permission.
+        
+        2) RESIDENTIAL LAND-
+        Residential Land is located inside towns and unlike agriculture lands, they do not require governments permission 
+        for construction.They can be sold and bought with relatively more ease than agricultureal lands.
+        </p>
+        `
     
 },
 'article-three': {
     
-title: 'ARTICLE THREE| SAIM YUSUF',
-  heading: 'ARTICLE THREE',
-  date: '4.12.1995',
+title: 'PAPERS|SAIM YUSUF',
+  heading: 'IMPORTANT PAPERS ASSOCIATED WITH LANDS',
+  date: '23/11/2016',
   content:`
   
    <p>
-                THE ARTICLE THREE starts from here.This article act as launchpad for your JAVA course.
-                Make sure that you follow regularly.
-                
-                
-            </p>
+            1) KHASRA-
+            Khasra is a like a status bearing document for agricultural lands.It holds the record of types of crops
+            cultivated on a land and its status,like constructed or not.
+            Khasra is renewed every year so that it keeps track record of latest changes in land.
             
-            <p>
-                this is second paragraph
-            </p>
-            <p>
-                this is third paragraph
+            2) KHATAUNI-
+            Khatauni is  made on basis of khasra and unlike khasra is a permanent record.
+            However it is renewed every six year
             </p>`
     
 }    
@@ -107,7 +103,7 @@ var htmltemplate=`
         </div>
         
          <div>
-            <a href= "/article-two">SECOND ARTICLE</a>
+            <a href= "/article-one">ABOUT US</a>
         </div>
         
          <div>
