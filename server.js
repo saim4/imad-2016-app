@@ -56,7 +56,7 @@ var articles= {
 },
 'article-three': {
     
-title: 'PAPERS|SAIM YUSUF',
+title: 'LAND DOCUMENTS|SAIM YUSUF',
   heading: 'IMPORTANT PAPERS ASSOCIATED WITH LANDS',
   date: '23/11/2016',
   content:`
@@ -110,7 +110,10 @@ var htmltemplate=`
         </div>
         
          <div>
-            <a href= "/article-three">THIRD ARTICLE</a>
+            <a href= "/article-two"LAND TYPES></a>
+        </div>
+         <div>
+            <a href= "/article-three"LAND DOCUMENTS ></a>
         </div>
         <hr/>
         
