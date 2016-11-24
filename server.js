@@ -22,7 +22,7 @@ var articles= {
               The need for such work arises from the fact that there is almost a scarcity on internet about this topic.There is not 
               a single portal or website dealing with this topic.
               </p>
-              <br/>
+              
               <p>
               Through Real Estate Academy we are trying to fill this gap and let people understand the ways in which the whole
               business works.
