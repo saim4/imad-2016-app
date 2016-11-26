@@ -1,13 +1,11 @@
 body {
     font-family: sans-serif;
-    background-color: white;
+    background-color: #cccccc;
     margin-top: 75px;
 
 }
 
-#bg{
-    background-color:#cccccc
-}
+
 .center {
     text-align: center;
 }
