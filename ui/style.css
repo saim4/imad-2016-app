@@ -5,6 +5,9 @@ body {
 
 }
 
+#bg{
+    background-color:#cccccc
+}
 .center {
     text-align: center;
 }
