@@ -1,14 +1,14 @@
 body {
     font-family: sans-serif;
-    background-color: #cccccc;
-    margin-top: 0
-
-}
+    background-color: white;
+    }
 
 
 #logo {
     
-    height:20px;
+    height:150px;
+    padding-top:50px;
+    padding-right:50px;
 }
 .text-big {
     font-size: 300%;
