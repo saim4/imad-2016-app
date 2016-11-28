@@ -3,7 +3,37 @@
     <head>
         <link href="/ui/style.css" rel="stylesheet" />
         <script type="text/javascript" src="/ui/main.js"></script>
-        
+		
+        <style>
+/* unvisited link */
+a:link {
+    color: white;
+	text-decoration:none;
+	font-weight:200;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+text-decoration:none;
+
+}
+
+/* mouse over link */
+a:hover {
+    color: white;
+	text-decoration:none;
+	font-weight:200;
+}
+
+/* selected link */
+a:active {
+    color: white;
+	text-decoration:none;
+	font-weight:200;
+}
+</style>
+		
     </head>
     
     <body  >
@@ -12,44 +42,54 @@
        <img  id="logo" src="http://smartcity.eletsonline.com/wp-content/uploads/2016/07/real-estate.jpg">
       </div>
       
-      <svg width="500" height="110">
-  <rect width="3000" height="100" style="fill:lime;stroke-width:3;stroke:rgb(0,0,0)">
+      <svg id="patti"  width="3000" height="110">
+  <rect width="1360" height="100" style="fill:lime;">
+    
+       </svg>
+
+ <svg id="menupatti"  width="3000" height="35" >
+  <rect width="1360" height="100" style="fill:lime;">
+    
+       </svg>
+	   
+	   <svg id="contentpatti"  width="300" height="600" >
+  <rect width="1360" height="500" style="fill:lime;">
     
        </svg>
    
     <div id="title"> 
-           <h1 >THE REAL ESTATE ACADEMY </h1> 
+           <h1 >THE   REAL   ESTATE   ACADEMY </h1> 
     </div>
     
-  <div align="middle" link="green" alink="blue" vlink="red">
-     <a href= "/article-one">ABOUT US</a>|
+  <div id="menu" 
+ align="middle">
+     <a href= "/article-one">ABOUT US</a>  |
   
-    <a href= "/article-two">LAND TYPES</a>|
+      <a href= "/article-two">LAND TYPES</a>  |
         
-     <a href= "/article-three">LAND DOCUMENTS</a>|
+     <a href= "/article-three">LAND DOCUMENTS</a>  |
    
     
-    <a href= "https://en.wikipedia.org/wiki/Real_estate" target="blank" link="#ffffff">A GUIDE TO WIKI</a>|
+    <a href= "https://en.wikipedia.org/wiki/Real_estate" target="blank" link="#ffffff">A GUIDE TO WIKI</a>
     
-    </div>
+ <svg id="lastbar"  width="3000" height="110">
+  <rect width="1360" height="100" style="fill:#404040;">
     
+       </svg>
+	   <svg id="line"  width="10" height="600" >
+  <rect width="1360" height="500" style="fill:#404040;">
+    
+       </svg>
+	     
     <br/>
-    
+    <!--
  <div class= "footer" align="middle" >This button <button id= "counter">Click me!
 
             </button> is clicked <span id="count"> 0</span> times  
             </div> 
-            
-    <div>
-        <table border=7 celspacing="25" bgcolor="black" style="color:white" >
-            
-            <tr>
-                <td >saim yusuf </td>
-                <td >saalim yusuf</td>
-                </tr>
-        </table>
-    </div>        
-            
+            -->
+     
+ 
         
     </body>
 </html>
