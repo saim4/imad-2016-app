@@ -1,6 +1,7 @@
 body {
     font-family: sans-serif;
     background-color: white;
+    
     }
 
 
@@ -9,16 +10,58 @@ body {
     height:150px;
     padding-top:30px;
     padding-right:60px;
+    
 }
 
 #title{
-       text-align:center;
+      
        color:white;
-        background-color: green;
+       font-family:constantia;
         position:absolute; 
         left: 200px;
         top: 65px;
 }
+#menu{
+       position:absolute; 
+       top:200px;
+      
+   }
+        
+ #patti{
+         position:absolute; 
+         top:55px;
+         left:0px;
+         z-index:-1;  
+}
+
+#menupatti{
+         position:absolute; 
+         left:0px;
+           
+}
+#contentpatti{
+          position:absolute; 
+          top:255px;
+          left:0px;  
+           }
+ #lastbar{
+          position:absolute; 
+          top:557px;
+          left:-10px;
+  }
+   
+ #line{
+         position:absolute;
+         top:60px;
+         left:1100px;
+  }  
+           
+ .footer{
+ 
+ position:absolute;
+ top:500px;
+ 
+  }
 .text-big {
     font-size: 300%;
 }
