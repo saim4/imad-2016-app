@@ -1,7 +1,7 @@
 body {
-    font-family: sans-serif;
+    font-family: constantia;
     background-color: white;
-    
+   
     }
 
 
@@ -13,7 +13,7 @@ body {
     
 }
 
-#title{
+#title h1{
       
        color:white;
        font-family:constantia;
@@ -45,6 +45,7 @@ body {
           left:0px;  
            }
  #lastbar{
+          
           position:absolute; 
           top:557px;
           left:-10px;
@@ -54,12 +55,52 @@ body {
          position:absolute;
          top:60px;
          left:1100px;
+  } 
+  
+#pc{
+
+margin-left:-1200px;
+border:1px solid #404040;
+max-width:300px;
+min-height:520px;
+height:auto;
+ background-color:#404040;
+ 
+
+ color:white;
+ }
+#pc p{
+        
+ text-align:left;       
+
+ }  
+ 
+ #end{
+margin-top:5px;
+border:1px solid #404040;
+width:1500px;
+height:100px;
+background-color:#404040;
+color:white;  
   }  
-           
+  
+#cont{
+margin-top:-525px;
+margin-left:-80px;      
+border:1px solid hidden;
+max-width:700px;
+min-height:520px;
+height:auto;
+}   
+
+#cont p{
+        text-align:left;
+ }
+  
  .footer{
  
  position:absolute;
- top:500px;
+ top:800px;
  
   }
 .text-big {
@@ -71,10 +112,9 @@ body {
 }
 
 
-
- 
+  
            .container{
-               color:  black;
+               color:  RED;
                max-width: 800px;
                font-family: times new roman;
                margin: 0 auto;
