@@ -85,51 +85,128 @@ var heading= obj.heading;
 var content= obj.content;
 
 var htmltemplate=`
-    
- <HTML>
- <head>
-        <title>
-               ${title}
-            
-             </title>
-        
-      <link href="/ui/style.css" rel="stylesheet" /> 
       
+      <!doctype html>
+<html>
+    <head>
+        <link href="/ui/style.css" rel="stylesheet" />
+        <script type="text/javascript" src="/ui/main.js"></script>
+		
+        <style>
+/* unvisited link */
+a:link {
+    color: #404040;
+	text-decoration:none;
+	font-weight:200;
+}
+
+/* visited link */
+a:visited {
+    color: #404040;
+text-decoration:none;
+
+}
+
+/* mouse over link */
+a:hover {
+    color:#404040;
+	text-decoration:none;
+	font-weight:200;
+}
+
+/* selected link */
+a:active {
+    color: #404040;
+	text-decoration:none;
+	font-weight:200;
+}
+</style>
+		
     </head>
     
+    <body  >
+     
+     <div  title= "REAL ESTATE ACADEMY" >
+       <img  id="logo" src="http://smartcity.eletsonline.com/wp-content/uploads/2016/07/real-estate.jpg">
+      </div>
+      
+      <svg id="patti"  width="3000" height="110">
+  <rect width="1360" height="100" style="fill:lime;">
+    
+       </svg>
+
+ <svg id="menupatti"  width="3000" height="35" >
+  <rect width="1360" height="100" style="fill:lime;">
+    
+       </svg>
+	   
+    <div id="title"> 
+           <h1 >THE   REAL   ESTATE   ACADEMY </h1> 
+    </div>
+    
+  <div id="menu" 
+ align="middle">
+     <a href= "/article-one">ABOUT US</a>  |
+  
+      <a href= "/article-two">LAND TYPES</a>  |
+        
+     <a href= "/article-three">LAND DOCUMENTS</a>  |
    
     
-    <body>
-      <div class= 'container'>
-        <div>
-            <a href= "/">HOME</a>
-        </div>
+    <a href= "https://en.wikipedia.org/wiki/Real_estate" target="blank" link="#ffffff">A GUIDE TO WIKI</a>
+	
+	
+	
+       
+	   <svg id="line"  width="10" height="600" >
+  <rect width="1360" height="500" style="fill:#404040;">
+    
+       </svg>
+	   
+	   
+	 
+    <!--              
+ <div class= "footer" align="middle" >This button <button id= "counter">Click me!
+
+            </button> is clicked <span id="count"> 0</span> times  
+            </div> 
+            -->
+     <!-- THIS IS CONTENTS AREA============================================================================= --> 
+	                       
+ <div id="pc">
+<h1> MY PROFILE</h1>
+<img  id="logo" src="http://smartcity.eletsonline.com/wp-content/uploads/2016/07/real-estate.jpg">
+     <p>Hi, my name is Saim Yusuf and currently I am pursuing B.Tech in Electronics from AKTU.
+	 <p>Though an Electronics engineer, I have interest in programming also and love to program anything from microprocessors or
+	 controller to JAVA or web development.</P>
+	 <p>This is my first website and I built it with the help of NPTEL and HASURA.Thanks a lot to them.</p>
+	  
+ </div>
+      
+	  <div id="cont">
+	  <h1>WELCOME TO REAL ESTATE ACEDEMY</h1>
+	   
+	          <img id="p1" src="http://www.dlfcrest.org.in/wp-content/uploads/2015/01/featured.png">
+			 
+			 ${CONTENT}
+			 
+			  
+	</div>  
+	  
+ <div id="end">
+              <h3>THIS WEBSITE HAS BEEN DEVELOPED AS PART OF IMAD COURSE</h3>
+</div>
+
+ 
+ 
+ 
+ 
         
-         <div>
-            <a href= "/article-one">ABOUT US</a>
-        </div>
-        
-         <div>
-            <a href= "/article-two"LAND TYPES></a>
-        </div>
-         <div>
-            <a href= "/article-three"LAND DOCUMENTS ></a>
-        </div>
-        <hr/>
-        
-        <h3>
-            ${heading}
-        </h3>
-        <div>
-            ${date}
-        </div>
-        <div>
-           ${content}
-        </div>
-     </div>
     </body>
-                  
-</HTML> `   
+</html> `
+
+           
+
        
     
 return htmltemplate;    
