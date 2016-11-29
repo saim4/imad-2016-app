@@ -188,7 +188,7 @@ a:active {
 	   
 	          <img id="p1" src="http://www.dlfcrest.org.in/wp-content/uploads/2015/01/featured.png">
 			 
-			 ${CONTENT}
+			 ${content}
 			 
 			  
 	</div>  
