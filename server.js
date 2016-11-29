@@ -38,7 +38,7 @@ var articles= {
   date: '24/11/2016',
   content:`
   
-   <p>  <img src="http://www.charteredclub.com/wp-content/uploads/2015/11/feat-Agricultural-Land.jpg">
+   <p>  <img  id="p1" src="http://www.charteredclub.com/wp-content/uploads/2015/11/feat-Agricultural-Land.jpg">
         TYPES OF LAND----------------------------------------------------------------------------------------------------</p>
         <p>
          1) AGRICULTURAL LAND-
@@ -46,7 +46,7 @@ var articles= {
         strict government laws.
         Construction on such land is generally prohbitted and requires government permission.
         </p>
-        <img src="http://taxheal.com/wp-content/uploads/2015/10/barren.jpg">
+        <img id="p1" src="http://taxheal.com/wp-content/uploads/2015/10/barren.jpg">
         <p>
         2) RESIDENTIAL LAND-
         Residential Land is located inside towns and unlike agriculture lands, they do not require governments permission 
@@ -63,13 +63,13 @@ title: 'LAND DOCUMENTS|SAIM YUSUF',
   content:`
   
    <p>      
-            <img src="http://www.mondaytimes.co.ug/files/media/Gulu%20land%20documents-mt-20131216-110759.jpg">
+            <img id="p1" src="http://www.mondaytimes.co.ug/files/media/Gulu%20land%20documents-mt-20131216-110759.jpg">
             1) KHASRA-
             Khasra is a like a status bearing document for agricultural lands.It holds the record of types of crops
             cultivated on a land and its status,like constructed or not.
             Khasra is renewed every year so that it keeps track record of latest changes in land.<br/>
             </p>
-            <img src="http://images.wisegeek.com/deed-transfer-paperwork.jpg">
+            <img id="p1"  src="http://images.wisegeek.com/deed-transfer-paperwork.jpg">
             <p>
             2) KHATAUNI-
             Khatauni is  made on basis of khasra and unlike khasra is a permanent record.
