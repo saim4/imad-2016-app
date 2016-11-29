@@ -63,8 +63,9 @@ title: 'LAND DOCUMENTS|SAIM YUSUF',
   date: '23/11/2016',
   content:`
   
-   <p>      
+        
             <img id="p1" src="http://www.mondaytimes.co.ug/files/media/Gulu%20land%20documents-mt-20131216-110759.jpg">
+             <p>           
             1) KHASRA-
             Khasra is a like a status bearing document for agricultural lands.It holds the record of types of crops
             cultivated on a land and its status,like constructed or not.
