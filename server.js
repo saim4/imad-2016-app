@@ -38,7 +38,7 @@ var articles= {
   date: '24/11/2016',
   content:`
   
-   <p>
+   <p>  <img src="http://www.charteredclub.com/wp-content/uploads/2015/11/feat-Agricultural-Land.jpg">
         TYPES OF LAND----------------------------------------------------------------------------------------------------</p>
         <p>
          1) AGRICULTURAL LAND-
@@ -186,7 +186,7 @@ a:active {
 	  <div id="cont">
 	  <h1>WELCOME TO REAL ESTATE ACEDEMY</h1>
 	   
-	          <img id="p1" src="http://www.dlfcrest.org.in/wp-content/uploads/2015/01/featured.png">
+	          
 			 
 			 ${content}
 			 
