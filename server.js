@@ -17,7 +17,7 @@ var articles= {
               </p>
               <br/>
               <p>
-              This website is designed to porvide information about general as well as "technical" terminology used and types of
+              This website is designed to porvide information about general as well as "technical" terminology used and types ofASDF
               processes and works followed in real estate sector.
               The need for such work arises from the fact that there is almost a scarcity on internet about this topic.There is not 
               a single portal or website dealing with this topic.
