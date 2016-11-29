@@ -13,7 +13,7 @@ var articles= {
   content:`
   
    <p>
-              <img  id="logo" src="http://smartcity.eletsonline.com/wp-content/uploads/2016/07/real-estate.jpg">
+              <img id="p1" src="http://www.dlfcrest.org.in/wp-content/uploads/2015/01/featured.png">
               </p>
               <br/>
               <p>
