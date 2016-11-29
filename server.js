@@ -13,7 +13,7 @@ var articles= {
   content:`
   
    <p>
-              WELCOME TO REAL ESTATE ACADEMY
+              <img  id="logo" src="http://smartcity.eletsonline.com/wp-content/uploads/2016/07/real-estate.jpg">
               </p>
               <br/>
               <p>
