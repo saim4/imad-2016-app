@@ -38,7 +38,8 @@ var articles= {
   date: '24/11/2016',
   content:`
   
-   <p>  <img  id="p1" src="http://www.charteredclub.com/wp-content/uploads/2015/11/feat-Agricultural-Land.jpg">
+     <img  id="p1" src="http://www.charteredclub.com/wp-content/uploads/2015/11/feat-Agricultural-Land.jpg">
+     <p>  
         TYPES OF LAND----------------------------------------------------------------------------------------------------</p>
         <p>
          1) AGRICULTURAL LAND-
