@@ -72,7 +72,7 @@ var htmltemplate=`
     <head>
         <link href="/ui/style.css" rel="stylesheet" />
         <script type="text/javascript" src="/ui/main.js"></script>
-		${title}
+		
         <style>
 /* unvisited link */
 a:link {
@@ -106,6 +106,10 @@ a:active {
     </head>
     
     <body  >
+     
+     <title>
+             ${title}
+     </title>
      
      <div  title= "REAL ESTATE ACADEMY" >
        <img  id="logo" src="http://smartcity.eletsonline.com/wp-content/uploads/2016/07/real-estate.jpg">
