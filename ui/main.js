@@ -41,7 +41,7 @@ request.onreadystatechange= function(){
     }
 };
 
-request.open('GET','http://saim4.imad.hasura-app.io/counter',true)
+request.open('GET','http://saim4.imad.hasura-app.io/counter',true);
 request.send(null);
 } ;
 
