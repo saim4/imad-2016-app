@@ -7,7 +7,7 @@ app.use(morgan('combined'));
 
 var articles= {
  
-'article-two': {
+'land-types': {
     
   title: 'LAND TYPES|SAIM YUSUF',
   heading: 'LAND CLASSIFICATION ',
@@ -32,7 +32,7 @@ var articles= {
         `
     
 },
-'article-three': {
+'land-documents': {
     
 title: 'LAND DOCUMENTS|SAIM YUSUF',
   heading: 'IMPORTANT PAPERS ASSOCIATED WITH LANDS',
@@ -129,9 +129,9 @@ a:active {
  align="middle">
      <a href= "/">ABOUT US</a>  |
   
-      <a href= "/article-two">LAND TYPES</a>  |
+      <a href= "/land-types">LAND TYPES</a>  |
         
-     <a href= "/article-three">LAND DOCUMENTS</a>  |
+     <a href= "/land-documents">LAND DOCUMENTS</a>  |
    
     
     <a href= "https://en.wikipedia.org/wiki/Real_estate" target="blank" link="#ffffff">A GUIDE TO WIKI</a>
@@ -211,11 +211,11 @@ counter= counter+1;
 res.send(counter.toString());
 });
 
-app.get('/:articlename', function (req, res) {
+app.get('/:landname', function (req, res) {
      //articlename== article-one
      //articles[articlename]== {} content object for article one
-     var articlename= req.params.articlename;
-res.send(createtemplate(articles[articlename]));
+     var landname= req.params.landname;
+res.send(createtemplate(articles[landname]));
 });
 
 app.get('/second', function (req, res) {
