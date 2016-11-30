@@ -6,31 +6,7 @@ var app = express();
 app.use(morgan('combined'));
 
 var articles= {
- 'article-one' : {
-  title: 'ABOUT US|SAIM YUSUF',
-  heading: 'ABOUT US',
-  date: '22/11/2016',
-  content:`
-  
-   <p>
-              <img id="p1" src="http://www.dlfcrest.org.in/wp-content/uploads/2015/01/featured.png">
-              </p>
-              <br/>
-              <p>
-              This website is designed to porvide information about general as well as "technical" terminology used and types of
-              processes and works followed in real estate sector.
-              The need for such work arises from the fact that there is almost a scarcity on internet about this topic.There is not 
-              a single portal or website dealing with this topic.
-              </p>
-              
-              <p>
-              Through Real Estate Academy we are trying to fill this gap and let people understand the ways in which the whole
-              business works.
-              </p>
-              `
-    
-},
-
+ 
 'article-two': {
     
   title: 'LAND TYPES|SAIM YUSUF',
