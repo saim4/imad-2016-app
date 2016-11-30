@@ -12,7 +12,7 @@ var articles= {
   title: 'LAND TYPES|SAIM YUSUF',
   heading: 'LAND CLASSIFICATION ',
   date: '24/11/2016',
-  pc:` <h1>CONTENTS</h1>
+  cont:` <h1>CONTENTS</h1>
   
   <ol style="list-style-type:decimal;>
   <li>Introduction</li>
@@ -44,7 +44,7 @@ var articles= {
 title: 'LAND DOCUMENTS|SAIM YUSUF',
   heading: 'IMPORTANT PAPERS ASSOCIATED WITH LANDS',
   date: '23/11/2016',
-  pc:` <h1>CONTENTS</h1>
+  cont:` <h1>CONTENTS</h1>
   
   <ol style="list-style-type:decimal;>
   <li>Introduction</li>
@@ -172,7 +172,7 @@ a:active {
      <!-- THIS IS CONTENTS AREA============================================================================= --> 
 	                       
  <div id="pc">
-              ${pc}
+              ${cont}
 	  
  </div>
       
