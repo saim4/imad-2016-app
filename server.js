@@ -151,7 +151,7 @@ a:active {
     
   <div id="menu" 
  align="middle">
-     <a href= "/article-one">ABOUT US</a>  |
+     <a href= "/">ABOUT US</a>  |
   
       <a href= "/article-two">LAND TYPES</a>  |
         
