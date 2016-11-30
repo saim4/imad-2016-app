@@ -12,6 +12,13 @@ var articles= {
   title: 'LAND TYPES|SAIM YUSUF',
   heading: 'LAND CLASSIFICATION ',
   date: '24/11/2016',
+  pc:` <h1>CONTENTS</h1>
+  
+  <ol style="list-style-type:decimal;>
+  <li>Introduction</li>
+  <li>Types of Land</li>
+  </ol>`,
+  
   content:`
   
      <img  id="p1" src="http://www.charteredclub.com/wp-content/uploads/2015/11/feat-Agricultural-Land.jpg">
@@ -37,6 +44,12 @@ var articles= {
 title: 'LAND DOCUMENTS|SAIM YUSUF',
   heading: 'IMPORTANT PAPERS ASSOCIATED WITH LANDS',
   date: '23/11/2016',
+  pc:` <h1>CONTENTS</h1>
+  
+  <ol style="list-style-type:decimal;>
+  <li>Introduction</li>
+  <li>Types of Documents</li>
+  </ol>`,
   content:`
   
         
@@ -159,17 +172,12 @@ a:active {
      <!-- THIS IS CONTENTS AREA============================================================================= --> 
 	                       
  <div id="pc">
-<h1> MY PROFILE</h1>
-<img  id="logo" src="http://smartcity.eletsonline.com/wp-content/uploads/2016/07/real-estate.jpg">
-     <p>Hi, my name is Mohammad Saim Yusuf and currently I am pursuing B.Tech in Electronics from AKTU.
-	 <p>Though an Electronics engineer, I have interest in programming also and love to program anything from microprocessors or
-	 controller to JAVA or web development.</P>
-	 <p>This is my first website and I built it with the help of NPTEL and HASURA.Thanks a lot to them.</p>
+              ${pc}
 	  
  </div>
       
 	  <div id="cont">
-	  <h1>WELCOME TO REAL ESTATE ACEDEMY</h1>
+	  <h1>${heading}</h1>
 	   
 	          
 			 
