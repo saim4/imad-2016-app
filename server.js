@@ -72,7 +72,7 @@ var htmltemplate=`
     <head>
         <link href="/ui/style.css" rel="stylesheet" />
         <script type="text/javascript" src="/ui/main.js"></script>
-		
+		${title}
         <style>
 /* unvisited link */
 a:link {
