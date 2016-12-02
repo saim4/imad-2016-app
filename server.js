@@ -193,6 +193,10 @@ a:active {
 	  
  <div id="end">
               <h3>THIS WEBSITE HAS BEEN DEVELOPED AS PART OF IMAD COURSE</h3>
+              <div >This button <button id= "counter">Click me!
+
+            </button> is clicked <span id="count"> 0</span> times  
+            </div> 
 </div>
 
  
