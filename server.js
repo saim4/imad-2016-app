@@ -179,12 +179,7 @@ a:active {
 	 controller to JAVA or web development.</P>
 	 <p>This is my first website and I built it with the help of NPTEL and HASURA.Thanks a lot to them.</p>
 	  
-	  <h1> MY PROFILE</h1>
-<img  id="logo" src="http://smartcity.eletsonline.com/wp-content/uploads/2016/07/real-estate.jpg">
-     <p>Hi, my name is Mohammad Saim Yusuf and currently I am pursuing B.Tech in Electronics from AKTU.
-	 <p>Though an Electronics engineer, I have interest in programming also and love to program anything from microprocessors or
-	 controller to JAVA or web development.</P>
-	 <p>This is my first website and I built it with the help of NPTEL and HASURA.Thanks a lot to them.</p>
+	  
 	 
 	 
 	
