@@ -12,12 +12,10 @@ var articles= {
   title: 'LAND TYPES|SAIM YUSUF',
   heading: 'LAND CLASSIFICATION ',
   date: '24/11/2016',
-  cont:` <h1>CONTENTS</h1>
+  a:` <h1>CONTENTS</h1>
   
-  <ol style="list-style-type:decimal;>
-  <li>Introduction</li>
-  <li>Types of Land</li>
-  </ol>`,
+  <p>1.Agricultural Lands</p>
+  <p>2.Residential Lands</p>`,
   
   content:`
   
@@ -42,14 +40,13 @@ var articles= {
 'land-documents': {
     
 title: 'LAND DOCUMENTS|SAIM YUSUF',
-  heading: 'IMPORTANT PAPERS ASSOCIATED WITH LANDS',
+  heading: 'PAPERS ASSOCIATED WITH LAND',
   date: '23/11/2016',
-  cont:` <h1>CONTENTS</h1>
+  a:` <h1>CONTENTS</h1>
+ 
   
-  <ol style="list-style-type:decimal;>
-  <li>Introduction</li>
-  <li>Types of Documents</li>
-  </ol>`,
+  <p>1.Kahsra </p>
+  <p>2.Khatauni</p>`,
   content:`
   
         
@@ -77,6 +74,7 @@ var title= obj.title;
 var date=  obj.date;
 var heading= obj.heading;
 var content= obj.content;
+var a= obj.a;
 
 var htmltemplate=`
       
@@ -172,18 +170,8 @@ a:active {
      <!-- THIS IS CONTENTS AREA============================================================================= --> 
 	                       
  <div id="pc">
-              <h1> MY PROFILE</h1>
-<img  id="logo" src="http://smartcity.eletsonline.com/wp-content/uploads/2016/07/real-estate.jpg">
-     <p>Hi, my name is Mohammad Saim Yusuf and currently I am pursuing B.Tech in Electronics from AKTU.
-	 <p>Though an Electronics engineer, I have interest in programming also and love to program anything from microprocessors or
-	 controller to JAVA or web development.</P>
-	 <p>This is my first website and I built it with the help of NPTEL and HASURA.Thanks a lot to them.</p>
-	  
-	  
-	 
-	 
-	
-	  
+              
+	           ${a}
  </div>
       
 	  <div id="cont">
@@ -197,11 +185,8 @@ a:active {
 	</div>  
 	  
  <div id="end">
+                   
               <h3>THIS WEBSITE HAS BEEN DEVELOPED AS PART OF IMAD COURSE</h3>
-              <div >This button <button id= "counter">Click me!
-
-            </button> is clicked <span id="count"> 0</span> times  
-            </div> 
 </div>
 
  
@@ -260,6 +245,10 @@ app.get('/ui/style.css', function (req, res) {
 
 app.get('/ui/main.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'main.js'));
+});
+
+app.get('/ui/dp.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'dp.jpg'));
 });
 
 
