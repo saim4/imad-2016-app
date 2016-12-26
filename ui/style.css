@@ -104,6 +104,13 @@ height:auto;
      
  }
   
+ #name{
+     
+     position: absolute;
+     left: 80px;
+     
+ } 
+  
  .footer{
  
  position:absolute;
